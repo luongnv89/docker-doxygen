@@ -14,3 +14,5 @@ RUN apt-get install -y doxygen graphviz
 # Added some template
 ADD doxygen/ doxygen/
 
+# Go to working directory
+WORKDIR /doxygen/
