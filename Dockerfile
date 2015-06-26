@@ -8,6 +8,9 @@ MAINTAINER Luong Nguyen, <luongnv89@gmail.com>
 # Update system
 RUN apt-get update
 
+# Install vim editor
+RUN apt-get install -y vim
+
 # Install doxygen and graphviz
 RUN apt-get install -y doxygen graphviz
 
