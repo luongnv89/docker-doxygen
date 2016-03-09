@@ -19,3 +19,4 @@ ADD doxygen/ doxygen/
 
 # Go to working directory
 WORKDIR /doxygen/
+
